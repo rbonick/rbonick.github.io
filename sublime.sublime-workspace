@@ -1,0 +1,236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5108,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ryan/AppData/Local/Temp/Temp1_html5-boilerplate-4.3.0.zip/html5-boilerplate-4.3.0/robots.txt",
+		"/C/Users/Ryan/AppData/Local/Temp/Temp1_html5-boilerplate-4.3.0.zip/html5-boilerplate-4.3.0/humans.txt",
+		"/C/RubyDevkit/config.yml",
+		"/C/Users/Ryan/Development/PycharmProjects/lab10/lab10/results/3d_answer.txt",
+		"/C/Users/Ryan/AppData/Local/Temp/Temp1_6772dd0911763c79323c66081b85ff3c.zip/texture.c",
+		"/C/Users/Ryan/AppData/Local/Temp/Temp1_6772dd0911763c79323c66081b85ff3c.zip/tga.c",
+		"/C/Users/Ryan/Documents/Visual Studio 2010/Projects/ShaderDemo/readme.txt",
+		"/C/Users/Ryan/Documents/GitHub/391-hell/student-distrib/filesystem.h",
+		"/C/Users/Ryan/Documents/GitHub/391-hell/student-distrib/kernel.c",
+		"/C/Users/Ryan/Documents/GitHub/391-hell/student-distrib/file_output.txt",
+		"/C/Users/Ryan/Documents/GitHub/391-hell/fsdir/cat",
+		"/C/Users/Ryan/Documents/GitHub/391-hell/student-distrib/filesystem.c",
+		"/C/Users/Ryan/Documents/Visual Studio 2010/Projects/ShaderDemo/DemoOpenGLVS10/teapot.obj",
+		"/C/Users/Ryan/Development/PycharmProjects/lab10/lab10/results/1.E_results.txt",
+		"/C/Users/Ryan/Downloads/seqdump (1).txt",
+		"/C/Users/Ryan/Documents/GitHub/391-hell/fsdir/verylargetxtwithverylongname.txt",
+		"/Z/391-hell/student-distrib/rtc.h",
+		"/Z/391-hell/student-distrib/kernel.c",
+		"/Z/391-hell/student-distrib/lib.h",
+		"/Z/391-hell/student-distrib/rtc.c",
+		"/Z/391-hell/student-distrib/lib.c",
+		"/Z/391-hell/student-distrib/kernel",
+		"/Z/391-hell/student-distrib/rtc_driver.c",
+		"/Z/391-hell/student-distrib/rtc_driver.h",
+		"/Z/391-hell/student-distrib/c.c",
+		"/Z/391-hell/student-distrib/i8259.c",
+		"/Z/391-hell/student-distrib/x86_desc.h",
+		"/Z/391-hell/questions.txt",
+		"/Z/391-hell/student-distrib/x86_desc.S",
+		"/Z/391-hell/student-distrib/boot.S",
+		"/Z/391-hell/student-distrib/types.h",
+		"/Z/391-hell/syscalls/ece391sched.c",
+		"/Z/391-hell/fsdir/syserr"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id",
+			"#",
+			"):",
+			"case(",
+			"void",
+			"extern "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			":",
+			"case ",
+			"int",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
