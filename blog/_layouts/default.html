@@ -9,9 +9,16 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/flat-ui.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/flat-ui.css">
 
 
     </head>
@@ -35,11 +42,11 @@
 
         <div class="header">
           <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          <a class="extra" href="/">home</a>
         </div>
 
           {{ content }}
 
+        <footer>
           <div class="footer">
             <div class="contact">
               <p>
@@ -55,6 +62,7 @@
               </p>
             </div>
           </div>
+        </footer>
       </div>
 
     </body>
