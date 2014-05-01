@@ -1,3 +1,4 @@
 name: Hello my name is
 markdown: redcarpet
 pygments: true
+baseurl: "http://rjbman.github.io/blog"
