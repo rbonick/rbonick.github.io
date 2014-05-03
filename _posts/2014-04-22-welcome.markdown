@@ -3,6 +3,7 @@ layout: post
 title:  Welcome
 date:   2014-04-22 15:02:50
 categories: jekyll update
+permalink: /blog/:year/:month/:day/:title.html
 ---
 
 Welcome to my new blog! Here I'll keep you updated on the status of my projects, as well as personal successes.
