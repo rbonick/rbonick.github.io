@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-05-03 16:36:55
 categories: jekyll update
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:title
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
