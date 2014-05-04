@@ -1,1 +1,4 @@
 /* Custom CSS (to be used on ALL pages) */
+footer p{
+	margin-left: 20px;
+}
