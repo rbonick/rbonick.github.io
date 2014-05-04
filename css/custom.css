@@ -2,3 +2,16 @@
 footer p{
 	margin-left: 20px;
 }
+
+.page-header{
+    margin-top: 0px;
+    width: auto;
+}
+
+.navbar-brand{
+	color: #ECF0F1 !important;
+}
+
+.navbar-brand:hover{
+	color: #BDC3C7 !important;
+}
