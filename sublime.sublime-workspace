@@ -15,131 +15,40 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4085,
+				"buffer_size": 4091,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/blog.css",
-			"settings":
-			{
-				"buffer_size": 59,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/portfolio.css",
-			"settings":
-			{
-				"buffer_size": 163,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "blog.html",
-			"settings":
-			{
-				"buffer_size": 332,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "portfolio.html",
 			"settings":
 			{
-				"buffer_size": 350,
+				"buffer_size": 343,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "old/fonts/glyphicons-halflings-regular.eot",
-			"settings":
-			{
-				"buffer_size": 50837,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/rjbma_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 507,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/blog.html",
-			"settings":
-			{
-				"buffer_size": 357,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_layouts/portfolio.html",
-			"settings":
-			{
-				"buffer_size": 353,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/nav.html",
-			"settings":
-			{
-				"buffer_size": 654,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/custom.css",
 			"settings":
 			{
-				"buffer_size": 228,
+				"buffer_size": 528,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_layouts/post.html",
+			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 184,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "---\nlayout: post\ntitle:  \"Welcome to Jekyll!\"\ndate:   2014-05-03 16:36:55\ncategories: blog\n---\n\nYou'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!\nTo add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.\n\nJekyll also offers powerful support for code snippets:\n\n{% highlight ruby %}\ndef print_hi(name)\n  puts \"Hi, #{name}\"\nend\nprint_hi('Tom')\n#=> prints 'Hi, Tom' to STDOUT.\n{% endhighlight %}\n\nCheck out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].\n\n[jekyll-gh]: https://github.com/mojombo/jekyll\n[jekyll]:    http://jekyllrb.com\n",
-			"file": "_posts/2014-05-03-welcome-to-jekyll.markdown",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 774,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "_includes/footer.html",
-			"settings":
-			{
-				"buffer_size": 50,
+				"buffer_size": 454,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/flat-ui.css",
+			"file": "_layouts/about.html",
 			"settings":
 			{
-				"buffer_size": 105104,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/jekyll.css",
-			"settings":
-			{
-				"buffer_size": 2464,
-				"line_ending": "Windows"
+				"buffer_size": 345,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -170,6 +79,19 @@
 	},
 	"file_history":
 	[
+		"/D/Users/Ryan/Development/rjbman.github.io/blog.html",
+		"/D/Users/Ryan/Development/rjbman.github.io/css/portfolio.css",
+		"/D/Users/Ryan/Development/rjbman.github.io/css/blog.css",
+		"/D/Users/Ryan/Development/rjbman.github.io/css/about.css",
+		"/D/Users/Ryan/Development/rjbman.github.io/css/flat-ui.css",
+		"/D/Users/Ryan/Development/rjbman.github.io/_includes/footer.html",
+		"/D/Users/Ryan/Development/rjbman.github.io/_posts/2014-05-03-welcome-to-jekyll.markdown",
+		"/D/Users/Ryan/Development/rjbman.github.io/_layouts/post.html",
+		"/D/Users/Ryan/Development/rjbman.github.io/_includes/nav.html",
+		"/D/Users/Ryan/Development/rjbman.github.io/_layouts/portfolio.html",
+		"/D/Users/Ryan/Development/rjbman.github.io/_layouts/blog.html",
+		"/C/Users/rjbma_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Ryan/Development/rjbman.github.io/old/fonts/glyphicons-halflings-regular.eot",
 		"/D/Users/Ryan/Development/rjbman.github.io/css/custom.css",
 		"/D/Users/Ryan/Development/rjbman.github.io/_posts/2014-04-22-welcome.markdown",
 		"/D/Users/Ryan/Development/rjbman.github.io/sublime.sublime-project",
@@ -180,7 +102,6 @@
 		"/D/Users/Ryan/Development/rjbman.github.io/blog/css/custom.css",
 		"/D/Programs/RubyDevkit/config.yml",
 		"/D/Users/Ryan/Development/rjbman.github.io/blog/_layouts/post.html",
-		"/C/Users/rjbma_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/Users/Ryan/Development/rjbman.github.io/index.html",
 		"/D/Users/Ryan/Development/rjbman.github.io/blog/index.html",
 		"/C/Users/Ryan/AppData/Local/Temp/Temp1_html5-boilerplate-4.3.0.zip/html5-boilerplate-4.3.0/robots.txt",
@@ -263,7 +184,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -272,15 +193,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4085,
+						"buffer_size": 4091,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1883,
-								1883
+								2265,
+								2031
 							]
 						],
 						"settings":
@@ -290,7 +211,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -298,103 +219,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/blog.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 59,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/portfolio.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "blog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 332,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								332,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "portfolio.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 350,
+						"buffer_size": 343,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								148,
+								148
 							]
 						],
 						"settings":
@@ -409,136 +246,48 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "old/fonts/glyphicons-halflings-regular.eot",
+					"buffer": 2,
+					"file": "css/custom.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50837,
+						"buffer_size": 528,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								524,
+								524
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/rjbma_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"buffer": 3,
+					"file": "about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 507,
+						"buffer_size": 454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								502,
-								502
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "_layouts/blog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								357
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "_layouts/portfolio.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 353,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								225,
-								234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "_includes/nav.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								485,
-								485
+								454,
+								454
 							]
 						],
 						"settings":
@@ -555,168 +304,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "css/custom.css",
+					"buffer": 4,
+					"file": "_layouts/about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 228,
+						"buffer_size": 345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "_layouts/post.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								184,
-								184
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "_posts/2014-05-03-welcome-to-jekyll.markdown",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 774,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								774,
-								774
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "_includes/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 50,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								50
+								91,
+								91
 							]
 						],
 						"settings":
 						{
 							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "css/flat-ui.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 105104,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79429,
-								79448
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 50037.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "css/jekyll.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2464,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -724,7 +331,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

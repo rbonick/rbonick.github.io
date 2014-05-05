@@ -22,7 +22,3 @@ footer p{
 	color: #BDC3C7 !important;
 }
 
-/* Sets a bit of margin for unstyled list items */
-.list-unstyled{
-	margin-left: 20px;
-}
