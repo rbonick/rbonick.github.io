@@ -1,17 +1,28 @@
 /* Custom CSS (to be used on ALL pages) */
+
+
+
+/* Give a little bit of space to the text on the footer */
 footer p{
 	margin-left: 20px;
 }
 
+/* Sets background-color to be full width of page, 
+ * and a slight margin of white to separate navbar */
 .page-header{
-    margin-top: 0px;
+    margin-top: 15px;
     width: auto;
 }
 
+/* Sets the text's color on the navbar */
 .navbar-brand{
 	color: #ECF0F1 !important;
 }
-
 .navbar-brand:hover{
 	color: #BDC3C7 !important;
+}
+
+/* Sets a bit of margin for unstyled list items */
+.list-unstyled{
+	margin-left: 20px;
 }
