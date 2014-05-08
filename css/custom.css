@@ -22,3 +22,10 @@ footer p{
 	color: #BDC3C7 !important;
 }
 
+/* Makes the toggle 3 lines */
+.navbar-toggle:before{
+	content: none;
+} 
+.icon-bar{
+	display: block !important;
+}
