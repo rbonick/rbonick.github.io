@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html>
-  
-    {% include head.html %}
+---
+layout: default
+---
+<div class="page-header">
+  <div class="container">
+    <h1 class="title"><a href="/portfolio/">Portfolio</a></h1>
+  </div>
+</div>
 
-    <body>
-
-      <div class="site">
-      
-        {% include nav.html %}
-
-        <div class="page-header">
-          <div class="container">
-            <h1 class="title"><a href="/portfolio/">Portfolio</a></h1>
-          </div>
-        </div>
-
-          {{ content }}
-
-        {% include footer.html %}
-      </div>
-
-    </body>
-</html>
+{{ content }}
