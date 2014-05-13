@@ -3,5 +3,4 @@ markdown: redcarpet
 pygments: true
 exclude: [old, '*.sublime-project', '*.sublime-workspace']
 permalink: pretty
-gems:
-  - jekyll-sitemap
+gems: ["jekyll-sitemap"]
