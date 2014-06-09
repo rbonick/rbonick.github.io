@@ -16,8 +16,4 @@ A collection of **Python** scripts focusing on scraping data off [care-tags.org]
 ### [{{ post.title }}]({{ post.url }})
 {{ post.description }}
 {% endif %}
-{% endfor %} 
-
-### [Top Posts]() 
-<!--TODO: Make top posts page-->
-Finds the top posts (as judged by reputation) and posters across the entire forum.
+{% endfor %} \
