@@ -5,7 +5,7 @@ date:   2014-05-09 10:23:50
 categories: portfolio
 depth: 1
 parent: "Care-tags Scripts"
-description: "Displays all top posts and users."
+description: "Finds the top posts (as judged by reputation) and posters across the entire forum."
 language: python
 ---
 
