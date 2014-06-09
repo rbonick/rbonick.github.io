@@ -16,4 +16,4 @@ A collection of **Python** scripts focusing on scraping data off [care-tags.org]
 ### [{{ post.title }}]({{ post.url }})
 {{ post.description }}
 {% endif %}
-{% endfor %} \
+{% endfor %} 
