@@ -2,7 +2,7 @@
 layout: portfolio
 title:  "Bullet Journal Online"
 categories: portfolio
-description: "An online implementation of Bullet Journal."
+description: "An online implementation of a productivity tool called Bullet Journal."
 language: python (django)
 ---
 ### Bullet Journal Online
