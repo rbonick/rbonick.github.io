@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: portfolio
 title:  "Ellenseas"
 image: /images/portfolio/ellenseas.png
 categories: portfolio
@@ -8,9 +8,7 @@ language: ruby (rails)
 ---
 [ellenseas]: https://ellenseas.com/
 
-### [ellenseas]
-
-Built [ellenseas], a fashion e-commerce and reselling store, from scratch after seeing the success of similar sites.
+Created [ellenseas], a fashion e-commerce and reselling store, from scratch after seeing the success of similar sites.
 
 The site is built on [Ruby on Rails](http://rubyonrails.org/), and uses
 [Bootstrap](http://getbootstrap.com/) as its CSS framework.

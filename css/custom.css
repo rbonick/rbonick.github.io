@@ -6,7 +6,8 @@
     margin-bottom: 1em;
 }
 
-.card img {
+.card img,
+.portfolio img {
     display: block;
     margin: 0 auto;
 }
