@@ -1,34 +1,13 @@
-/* Custom CSS (to be used on ALL pages) */
-body {
-	padding-top: 50px;
-	padding-bottom: 20px;
+.u-no-decoration {
+    text-decoration: none;
 }
 
-/* Sets background-color to be full width of page, 
- * and a slight margin of white to separate navbar */
-.page-header{
-    margin-top: 15px;
-    width: auto;
+.card {
+    margin-bottom: 1em;
 }
 
-/* Sets the text's color on the navbar */
-.navbar-brand{
-	color: #ECF0F1 !important;
-}
-.navbar-brand:hover{
-	color: #BDC3C7 !important;
-}
-
-/* Makes the toggle 3 lines */
-.navbar-toggle:before{
-	content: none;
-} 
-.icon-bar{
-	display: block !important;
-}
-
-/* Make the footer have no background */
-footer {
-	padding-top: 30px;
-	background-color: inherit;
+.card img,
+.portfolio img {
+    display: block;
+    margin: 0 auto;
 }
