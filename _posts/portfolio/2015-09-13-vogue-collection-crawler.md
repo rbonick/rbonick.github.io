@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: default
 title:  "Vogue.com Collection Crawler"
 categories: portfolio
 description: "A script that goes through a vogue.com fashion collection slideshow and pulls all the slideshow image urls."

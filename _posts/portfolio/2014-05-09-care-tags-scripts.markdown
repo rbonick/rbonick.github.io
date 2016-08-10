@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: default
 title:  "Care-tags Scripts"
 categories: portfolio
 description: "A collection of scripts for scraping data from care-tags.org, a PHPBB forum."

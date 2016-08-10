@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: default
 title:  "Super Mega Awesome Care-Tags Filter Extraordinaire"
 categories: portfolio
 description: "A Google Chrome filter to replace words on webpages with \"better\" replacements."

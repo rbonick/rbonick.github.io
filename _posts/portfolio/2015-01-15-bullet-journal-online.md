@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: default
 title:  "Bullet Journal Online"
 categories: portfolio
 description: "An online implementation of a productivity tool called Bullet Journal."
