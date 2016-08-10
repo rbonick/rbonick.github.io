@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Super Mega Awesome Care-Tags Filter Extraordinaire"
+image: /images/portfolio/care-filter.png
 categories: portfolio
 description: "A Google Chrome filter to replace words on webpages with \"better\" replacements."
 language: javascript

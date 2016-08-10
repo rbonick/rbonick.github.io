@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Care-tags Scripts"
+image: /images/portfolio/care-scripts.png
 categories: portfolio
 description: "A collection of scripts for scraping data from care-tags.org, a PHPBB forum."
 language: python

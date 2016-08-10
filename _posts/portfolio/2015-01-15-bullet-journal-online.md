@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Bullet Journal Online"
+image: /images/portfolio/bullet-journal.png
 categories: portfolio
 description: "An online implementation of a productivity tool called Bullet Journal."
 language: python (django)
