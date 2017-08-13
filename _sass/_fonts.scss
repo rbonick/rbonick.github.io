@@ -1,15 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Audiowide|Righteous|Monoton');
-
-@font-face {
-    font-family: 'Eurostile Extended';
-    // src: url('/fonts/EurostileExtendedBlack.ttf') format('truetype');
-    src: url('/fonts/EurostileBQ-BoldExtended.otf');
-    font-weight: bold;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Audiowide');
 
 $font-mono: 'Roboto Mono', monospace;
 $font-display: 'Audiowide', 'Helvetica', sans-serif;
-// $font-display: 'Righteous', 'Helvetica', sans-serif;
-// $font-display: 'Monoton', 'Helvetica', sans-serif;
-// $font-display: 'Eurostile Extended', 'Helvetica', sans-serif;
