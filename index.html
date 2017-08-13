@@ -4,73 +4,50 @@ title: Ryan Bonick
 permalink: /index.html
 categories: index
 ---
-<section class="container" xmlns="http://www.w3.org/1999/html">
+<main class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h1>Ryan Bonick</h1>
+        <h1>Ryan Bonick</h1>
+    </div>
+    <div class="row">
+        <div class="about-me">
             <p>
-                I'm a software engineer currently building and managing complex enterprise and B2B web platforms. I have
-                been able to work across a full development stack encompassing everything from <strong>Java</strong> back end
-                software using <strong>Spring</strong> to <strong>jQuery/Dojo-powered</strong> front end code to
-                <strong>HTML</strong> and <strong>LESS</strong> design and styling. Lately, I've additionally been working on
-                <strong>node.js</strong> and <strong>Angular 2</strong>.
+                I'm a software engineer currently helping students find the
+                ideal college for them and apply to it. I've been working across
+                a full development stack with a <strong>Java</strong> back end
+                using <strong>Spring</strong> to a front end built on
+                <strong>React</strong> and <strong>Redux</strong> to
+                <strong>HTML</strong> and <strong>SCSS</strong> design and 
+                styling.
             </p>
 
             <p>
                 <a href="/RyanBonick-resume.pdf" target="_blank">You can find my resume here, if that's what you're after.</a>
             </p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
+        <div class="contact">
             <h4>Contact</h4>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/ryanbonick">Ryan Bonick</a></p>
             <p>Email: <a href="mailto:ryan.bonick@gmail.com">ryan.bonick@gmail.com</a></p>
             <p>Github: <a href="https://github.com/rbonick">@rbonick</a></p>
         </div>
     </div>
-</section>
 
-<section class="container">
-    {% assign loopindex = 0 %}
+    <div class="row">
+        <h2>Projects</h2>
+    </div>
+
     {% for page in site.posts %}
         {% if page.categories contains 'portfolio' %}
-            {% assign loopindex = loopindex | plus: 1 %}
-            {% assign rowfinder = loopindex | modulo: 3 %}
-            {% if rowfinder == 1 %}
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="{{ page.url }}" class="u-no-decoration">
-                            <div class="card">
-                                <img src="{{ page.image }}">
-                                {{ page.title }}
-                            </div>
-                        </a>
-                    </div>
-            {% elsif rowfinder == 0 %}
-                    <div class="col-md-4">
-                        <a href="{{ page.url }}" class="u-no-decoration">
-                            <div class="card">
-                                <img src="{{ page.image }}">
-                                {{ page.title }}
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            {% else %}
-                <div class="col-md-4">
-                    <a href="{{ page.url }}" class="u-no-decoration">
-                        <div class="card">
-                            <img src="{{ page.image }}">
-                            {{ page.title }}
-                        </div>
-                    </a>
-                </div>
-            {% endif %}
+    <div class="row projects">
+        <div class="card">
+            <img src="{{ page.image }}">
+        </div>
+        <div class="content">
+            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
+            <p>{{ page.description }}</p>
+        </div>
+    </div>
         {% endif %}
     {% endfor %}
-    {% if rowfinder != 0 %}
-        </div>
-    {% endif %}
 
-</section>
+</main>

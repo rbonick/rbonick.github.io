@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
+
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio-image {
+    img {
+        @media screen and (max-width: 426px) {
+            max-width: 100%;
+        }
+    }
+}
