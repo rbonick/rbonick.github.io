@@ -1,0 +1,71 @@
+@import 'variables';
+@import 'fonts';
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-display;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 4.8rem;
+    margin-top: 1.6rem;
+    margin-bottom: .8rem;
+
+    small {
+        font-weight: normal;
+        font-size: .5em;
+    }
+
+    @media screen and (max-width: 426px) {
+        line-height: 3.6rem;
+        margin-top: 1.2rem;
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.4375rem;
+    line-height: 1.6rem;
+    margin-top: 1em;
+    margin-bottom: .8rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-top: 1em;
+    margin-bottom: .8rem;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-top: .8em;
+    margin-bottom: .8rem;
+}
+
+h6 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-top: .8em;
+    margin-bottom: .8rem;
+}
+
+p {
+    line-height: 1.625rem;
+
+    & + & {
+        margin-top: 1rem;
+    }
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
