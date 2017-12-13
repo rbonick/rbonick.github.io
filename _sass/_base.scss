@@ -38,7 +38,7 @@ body {
     background-color: $white;
     box-shadow: $material-box-shadow;
 
-    padding: 0 20px;
+    padding: $container-padding;
 }
 
 .row {
