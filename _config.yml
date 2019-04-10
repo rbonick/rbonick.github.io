@@ -1,5 +1,5 @@
 name: Ryan Bonick - Blog
-highlighter: pygments
+highlighter: rouge
 exclude: [old, '*.sublime-project', '*.sublime-workspace']
 permalink: none
 gems: ["jekyll-sitemap"]
