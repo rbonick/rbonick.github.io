@@ -4,56 +4,18 @@ title: Ryan Bonick
 permalink: /index.html
 categories: index
 ---
-<main class="container">
+<header>
+  <div class="container">
     <div class="row">
         <h1>Ryan Bonick</h1>
     </div>
-    <div class="row">
-        <div class="about-me">
-            <p>
-                I'm a software engineer currently working at Google on the
-                client side of the Discover Android app, in <b>Java</b>.
-            </p>
-
-            <p>
-                In the past, I've done full stack development across <b>Java</b>,
-                <b>Spring</b>, <b>React</b> / <b>Redux</b>, and <b>HTML</b> &
-                <b>SCSS</b>.
-            </p>
-
-            <p>
-                When I'm not writing code, you can find me biking or
-                snowboarding depending on the season.
-            </p>
-
-            <p>
-                <a href="/RyanBonick-resume.pdf" target="_blank">You can find my resume here, if that's what you're after.</a>
-            </p>
-        </div>
-        <div class="contact">
-            <h4>Contact</h4>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ryanbonick">Ryan Bonick</a></p>
-            <p>Email: <a href="mailto:ryan.bonick@gmail.com">ryan.bonick@gmail.com</a></p>
-            <p>Github: <a href="https://github.com/rbonick">@rbonick</a></p>
-        </div>
-    </div>
-
-    <div class="row">
-        <h2>Projects</h2>
-    </div>
-
-    {% for page in site.posts %}
-        {% if page.categories contains 'portfolio' %}
-    <div class="row projects">
-        <div class="card">
-            <img src="{{ page.image }}">
-        </div>
-        <div class="content">
-            <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
-            <p>{{ page.description }}</p>
-        </div>
-    </div>
-        {% endif %}
-    {% endfor %}
-
+    <nav>
+      <a href="#">Home</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <p>Hello!</p>
+  </div>
 </main>

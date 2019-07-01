@@ -2,50 +2,28 @@
 @import 'fonts';
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 
-    background-repeat: no-repeat;
-    background: url('/images/blood-pixelized.jpg');
-    background-size: cover;
-
-    font-family: $font-mono;
-    font-size: 16px;
-    color: $font-color;
-
-    padding-top: $body-padding;
-    padding-bottom: $body-padding;
-
-    @media screen and (max-width: 426px){
-        $body-padding: 15px;
-        padding: $body-padding;
-    }
+main {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-    max-width: 980px;
+  max-width: 980px;
 
-    background-color: $white;
-    box-shadow: $material-box-shadow;
-
-    padding: $container-padding;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-
-    @media screen and (max-width: 426px){
-        flex-direction: column;
-    }
+  flex-basis: 0;
+  flex-grow: 1;
 }

@@ -1,0 +1,17 @@
+@import 'variables';
+
+header {
+  overflow:auto;
+  background-color: $red;
+
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin: 20px 0;
+
+  font-weight: bold;
+  font-family: $font-display;
+  text-transform: uppercase;
+}
