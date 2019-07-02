@@ -61,6 +61,11 @@ h6 {
 p {
     line-height: 1.625rem;
 
+    padding: 10px;
+
+    color: $font-color;
+    background-color: $white;
+
     & + & {
         margin-top: 1rem;
     }
@@ -69,4 +74,6 @@ p {
 a {
     color: $link-color;
     text-decoration: none;
+
+    border-bottom: 1px solid $link-color;
 }

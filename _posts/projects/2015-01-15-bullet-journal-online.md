@@ -1,8 +1,8 @@
 ---
-layout: portfolio
+layout: projects
 title:  "Bullet Journal Online"
-image: /images/portfolio/bullet-journal.png
-categories: portfolio
+image: /images/projects/bullet-journal.png
+categories: projects
 description: "An online implementation of a productivity tool called Bullet Journal."
 language: python (django)
 ---

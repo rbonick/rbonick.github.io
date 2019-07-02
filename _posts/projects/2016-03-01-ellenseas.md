@@ -1,8 +1,8 @@
 ---
-layout: portfolio
+layout: projects
 title:  "Ellenseas"
-image: /images/portfolio/ellenseas.png
-categories: portfolio
+image: /images/projects/ellenseas.png
+categories: projects
 description: "Ellenseas is a fashion e-commerce and reselling store, where any user can list their new or used clothes and other accessories for purchase."
 language: ruby (rails)
 ---

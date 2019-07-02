@@ -1,5 +1,7 @@
 @import 'colors';
 
-header.bikes {
-  background-color: $bikes-color;
+.bikes {
+  header {
+    background-color: $bikes-color;
+  }
 }

@@ -1,5 +1,40 @@
 @import 'colors';
 
-header.projects {
-  background-color: $projects-color;
+.projects {
+  header {
+    background-color: $projects-color;
+  }
+
+  h4 {
+    display: inline-block;
+
+    padding: 10px 70px;
+
+    color: $white;
+    background-color: $projects-color;
+  }
+
+  .row + .row {
+    margin-top: 1.5rem;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  .card {
+    margin-right: 20px;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  p {
+    align-self: flex-start;
+  }
+
+  a p {
+    color: $font-color;
+  }
 }

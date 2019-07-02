@@ -1,5 +1,7 @@
 @import 'colors';
 
-header.plants {
-  background-color: $plants-color;
+.plants {
+  header {
+    background-color: $plants-color;
+  }
 }

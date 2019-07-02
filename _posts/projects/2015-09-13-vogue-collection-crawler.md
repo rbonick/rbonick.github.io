@@ -1,8 +1,8 @@
 ---
-layout: portfolio
+layout: projects
 title:  "Vogue.com Collection Crawler"
-image: /images/portfolio/vogue.png
-categories: portfolio
+image: /images/projects/vogue.png
+categories: projects
 description: "A script that goes through a vogue.com fashion collection slideshow and pulls all the slideshow image urls."
 language: python
 ---
