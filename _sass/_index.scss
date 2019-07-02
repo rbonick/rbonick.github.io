@@ -1,1 +1,9 @@
-@import 'variables';
+@import 'colors';
+
+p {
+  display: inline-block;
+
+  padding: 10px;
+  
+  background-color: $white;
+}

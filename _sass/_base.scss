@@ -1,5 +1,8 @@
-@import 'variables';
+@import 'colors';
 @import 'fonts';
+
+$grid-size: 50px;
+$grid-thickness: 2px;
 
 * {
   box-sizing: border-box;
@@ -14,11 +17,22 @@ html {
 body {
   display: flex;
   flex-direction: column;
+
+  background-size: $grid-size $grid-size;
+  background-image: linear-gradient(to right, $teal-transparent $grid-thickness, transparent $grid-thickness), linear-gradient(to bottom, $teal-transparent $grid-thickness, transparent $grid-thickness);
 }
 
 main {
   display: flex;
   justify-content: center;
+
+  padding: 40px 0;
+
+  font-family: $font-mono;
+
+  @media screen and (max-width: 426px) {
+    padding: 25px 2px;
+  }
 }
 
 .container {
