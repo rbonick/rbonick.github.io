@@ -11,11 +11,43 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
-
-  margin: 20px 0;
+  justify-content: center;
 
   font-weight: bold;
   font-family: $font-display;
   text-transform: uppercase;
+
+  & > .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    flex-basis: 0;
+    flex-grow: 1;
+
+    padding: 10px 0;
+
+    text-align: center;
+
+    &.home {
+      background-color: $home-color;
+    }
+
+    &.projects {
+      background-color: $projects-color;
+    }
+
+    &.bikes {
+      background-color: $bikes-color;
+    }
+
+    &.plants {
+      background-color: $plants-color;
+    }
+
+    &.blog {
+      background-color: $blog-color;
+    }
+  }
 }
