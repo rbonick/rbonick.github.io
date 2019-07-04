@@ -1,20 +1,19 @@
 ---
-layout: default
+layout: base
+title:
 ---
-<main class="container projects">
-    <div class="row">
-        <a href="/">&lsaquo; Back to the main page</a>
-    </div>
-    <div class="row">
-        <div class="projects-content">
-            <h1>{{ page.title }} <small>{{ page.language }}</small></h1>
+<div class="container project-container">
+  <a href="/projects" class="standalone">&lsaquo; Back to projects</a>
 
-            {{ content }}
-        </div>
-    </div>
-    <div class="row">
-        <div class="projects-image">
-            <img src="{{ page.image }}">
-        </div>
-    </div>
-</main>
+  <div class="projects-content">
+      <h1>{{ page.title }} <small>{{ page.language }}</small></h1>
+
+      {{ content }}
+  </div>
+
+  {% if page.github %}
+  <h6><a href={{ page.github }} class="standalone">Available on Github</a></h6>
+  {% endif %}
+
+  <img src="{{ page.image }}" class="project-image">
+</div>

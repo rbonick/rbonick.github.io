@@ -14,8 +14,8 @@
     background-color: $projects-color;
   }
 
-  .row + .row {
-    margin-top: 1.5rem;
+  .project-row + .project-row {
+    margin-top: 2rem;
   }
 
   .content {
@@ -36,5 +36,22 @@
 
   a p {
     color: $font-color;
+  }
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+
+  .project-image {
+    border: 5px solid $grid-color;
+    align-self: center;
+    max-width: 500px;
+
+    margin-top: 2rem;
+  }
+
+  .standalone {
+    align-self: flex-start;
   }
 }

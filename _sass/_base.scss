@@ -19,7 +19,7 @@ body {
   flex-direction: column;
 
   background-size: $grid-size $grid-size;
-  background-image: linear-gradient(to right, $teal-transparent $grid-thickness, transparent $grid-thickness), linear-gradient(to bottom, $teal-transparent $grid-thickness, transparent $grid-thickness);
+  background-image: linear-gradient(to right, $grid-transparent $grid-thickness, transparent $grid-thickness), linear-gradient(to bottom, $grid-transparent $grid-thickness, transparent $grid-thickness);
 }
 
 main {

@@ -7,7 +7,6 @@ $blue: #2567D9;
 $white: #FFFFFF;
 $dark-red: #471218;
 $black: #333333;
-$teal-transparent: #{$teal}40;
 
 $font-color: $black;
 $link-color: $teal;
@@ -17,3 +16,6 @@ $projects-color: $yellow;
 $bikes-color: $blue;
 $plants-color: $green;
 $blog-color: $purple;
+
+$grid-color: $teal;
+$grid-transparent: #{$grid-color}40;
