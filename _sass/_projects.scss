@@ -12,6 +12,11 @@
 
     color: $white;
     background-color: $projects-color;
+
+    @media screen and (max-width: 426px) {
+      display: block;
+      text-align: center;
+    }
   }
 
   .project-row + .project-row {
@@ -20,6 +25,11 @@
 
   .content {
     display: flex;
+
+    @media screen and (max-width: 426px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   .card {
@@ -28,10 +38,18 @@
 
   img {
     max-width: 200px;
+
+    @media screen and (max-width: 426px) {
+      border: 5px solid $projects-color;
+    }
   }
 
   p {
     align-self: flex-start;
+
+    @media screen and (max-width: 426px) {
+      margin-top: 1rem;
+    }
   }
 
   a p {
