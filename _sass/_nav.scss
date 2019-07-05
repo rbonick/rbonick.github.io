@@ -1,0 +1,55 @@
+@import 'colors';
+@import 'fonts';
+
+header {
+  overflow:auto;
+  background-color: $red;
+
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  font-weight: bold;
+  font-family: $font-display;
+  text-transform: uppercase;
+
+  & > .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  a {
+    flex-basis: 0;
+    flex-grow: 1;
+
+    padding: 10px 0;
+    border-bottom: 0;
+
+    text-align: center;
+    color: $white;
+
+    &.home {
+      background-color: $home-color;
+    }
+
+    &.projects {
+      background-color: $projects-color;
+    }
+
+    &.bikes {
+      background-color: $bikes-color;
+    }
+
+    &.plants {
+      background-color: $plants-color;
+    }
+
+    &.blog {
+      background-color: $blog-color;
+    }
+  }
+}

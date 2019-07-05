@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'colors';
 @import 'fonts';
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,6 +61,11 @@ h6 {
 p {
     line-height: 1.625rem;
 
+    padding: 10px;
+
+    color: $font-color;
+    background-color: $white;
+
     & + & {
         margin-top: 1rem;
     }
@@ -69,4 +74,19 @@ p {
 a {
     color: $link-color;
     text-decoration: none;
+
+    border-bottom: 1px solid $link-color;
+
+    &.standalone {
+      display: inline-block;
+
+      padding: 10px;
+      background-color: $white;
+
+      border-bottom-width: 2px;
+    }
+}
+
+.lowercase {
+  text-transform: lowercase;
 }

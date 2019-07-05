@@ -1,0 +1,18 @@
+---
+layout: base
+title: ryan bonick &#58;&#58; plants
+permalink: /plants.html
+categories: plants
+---
+<div class="container">
+  <p class="lowercase">Plants are wonderful.</p>
+  <p class="lowercase">They're so green (except when they're not supposed to be!) and lush.</p>
+  <p class="lowercase">Enjoy these photos of my plants.</p>
+  <div class="plant-container">
+    {% for image in site.static_files %}
+      {% if image.path contains 'images/plants' %}
+        <img class="plant-image" src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

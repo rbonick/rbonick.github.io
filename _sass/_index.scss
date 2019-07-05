@@ -1,66 +1,22 @@
-@import 'variables';
+@import 'colors';
 
-.about-me {
-    flex-basis: 0;
-    flex-grow: 2;
+.index {
+
+  header {
+    background-color: $home-color;
+  }
+
+  p {
+    display: inline-block;
+  }
 }
 
-.contact {
-    flex-basis: 0;
-    flex-grow: 1;
+.index-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-    margin-left: 50px;
-
-    h4 {
-        margin-top: 0;
-    }
-
-    @media screen and (max-width: 426px) {
-        margin-top: 1em;
-        margin-left: 0;
-    }
-}
-
-.projects {
-    border-top: $material-border;
-    border-bottom: $material-border;
-
-    padding-top: $project-padding;
-    padding-bottom: $project-padding;
-
-    & + & {
-        border-top: none;
-    }
-
-    justify-content: flex-start;
-
-    .card {
-        flex-shrink: 0;
-
-        img {
-            width: 300px;
-            height: auto;
-
-            @media screen and (max-width: 426px) {
-                width: 100%;
-            }
-        }
-
-        @media screen and (max-width: 426px) {
-            text-align: center;
-        }
-    }
-
-    .content {
-        margin-left: 50px;
-
-        h4 {
-            margin-top: 0;
-        }
-
-        @media screen and (max-width: 426px) {
-            margin-top: 1em;
-            margin-left: 0;
-        }
-    }
+  @media screen and (max-width: 426px) {
+    justify-content: space-between;
+  }
 }

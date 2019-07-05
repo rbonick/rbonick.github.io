@@ -1,0 +1,23 @@
+---
+layout: base
+title: ryan bonick &#58;&#58; projects
+permalink: /projects.html
+categories: projects
+---
+<div class="container">
+  {% for page in site.posts %}
+   {% if page.path contains 'projects' %}
+   <div class="project-row">
+     <a href="{{ page.url }}">
+       <h4>{{ page.title }}</h4>
+       <div class="content">
+         <div class="card">
+             <img src="{{ page.image }}">
+         </div>
+         <p>{{ page.description }}</p>
+       </div>
+     </a>
+   </div>
+   {% endif %}
+ {% endfor %}
+</div>

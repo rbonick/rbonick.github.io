@@ -1,0 +1,75 @@
+@import 'colors';
+
+.projects {
+  header {
+    background-color: $projects-color;
+  }
+
+  h4 {
+    display: inline-block;
+
+    padding: 10px 70px;
+
+    color: $white;
+    background-color: $projects-color;
+
+    @media screen and (max-width: 426px) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .project-row + .project-row {
+    margin-top: 2rem;
+  }
+
+  .content {
+    display: flex;
+
+    @media screen and (max-width: 426px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .card {
+    margin-right: 20px;
+  }
+
+  img {
+    max-width: 200px;
+
+    @media screen and (max-width: 426px) {
+      border: 5px solid $projects-color;
+    }
+  }
+
+  p {
+    align-self: flex-start;
+
+    @media screen and (max-width: 426px) {
+      margin-top: 1rem;
+    }
+  }
+
+  a p {
+    color: $font-color;
+  }
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+
+  .project-image {
+    border: 5px solid $projects-color;
+    align-self: center;
+    max-width: 500px;
+
+    margin-top: 2rem;
+  }
+
+  .standalone {
+    align-self: flex-start;
+  }
+}

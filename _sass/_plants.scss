@@ -1,0 +1,45 @@
+@import 'colors';
+
+.plants {
+  header {
+    background-color: $plants-color;
+  }
+
+  p {
+    display: inline-block;
+  }
+}
+
+.plant-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  // Trick to get margins when flex wrapping
+  $card-margin: 20px;
+  margin: -$card-margin;
+  & > * {
+    margin: $card-margin;
+  }
+
+  @media screen and (max-width: 426px) {
+    margin: 0;
+
+    & > * {
+      margin: 0;
+    }
+  }
+
+  margin-top: 2rem;
+}
+
+.plant-image {
+  max-width: 300px;
+  max-height: 100%;
+  border: 5px solid $plants-color;
+
+  @media screen and (max-width: 426px) {
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+}
