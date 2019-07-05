@@ -4,4 +4,18 @@ title: ryan bonick &#58;&#58; bikes
 permalink: /bikes.html
 categories: bikes
 ---
-<h2>bikes!</h2>
+<div class="container bikes-container">
+  <p class="lowercase">Bikes are great!</p>
+  <p class="lowercase">Cycling is super duper healthy and also really fun.</p>
+  <p class="lowercase">And they're better for the environment than a car!</p>
+  <p class="lowercase">Right now I have 4 bikes! That's a lot but I love them all.</p>
+
+  <div class="bike-cards">
+    {% for bike in site.bikes %}
+    <div class="bike-card">
+      <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
+      <img src="{{ bike.image }}">
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -5,3 +5,59 @@
     background-color: $bikes-color;
   }
 }
+
+.bikes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (max-width: 426px) {
+    justify-content: space-between;
+  }
+
+  p {
+    display: inline-block;
+  }
+}
+
+.bike-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 2rem;
+
+  // Trick to get margins when flex wrapping
+  $card-margin: 10px;
+  margin: -$card-margin;
+  & > * {
+    margin: $card-margin;
+  }
+
+  @media screen and (max-width: 426px) {
+    margin: 0;
+
+    & > * {
+      margin: 0;
+    }
+  }
+}
+
+.bike-card {
+  padding: 15px;
+  background-color: $white;
+  border: 5px solid $bikes-color;
+
+  @media screen and (max-width: 426px) {
+    max-width: 100%;
+
+    & + & {
+      margin-top: 2rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    width: 440px; // 980 / 2 - 2*padding - 2*border - margin
+  }
+}

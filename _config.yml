@@ -3,3 +3,10 @@ highlighter: rouge
 exclude: [old, '*.sublime-project', '*.sublime-workspace']
 permalink: none
 gems: ["jekyll-sitemap"]
+collections:
+  bikes:
+    order:
+      - sandra.md
+      - bluto.md
+      - red.md
+      - marnie.md
