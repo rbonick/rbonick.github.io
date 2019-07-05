@@ -5,9 +5,8 @@ permalink: /projects.html
 categories: projects
 ---
 <div class="container">
-  <h2>projects!</h2>
-    {% for page in site.posts %}
-       {% if page.categories contains 'projects' %}
+  {% for page in site.posts %}
+   {% if page.path contains 'projects' %}
    <div class="project-row">
      <a href="{{ page.url }}">
        <h4>{{ page.title }}</h4>
@@ -19,6 +18,6 @@ categories: projects
        </div>
      </a>
    </div>
-       {% endif %}
-   {% endfor %}
+   {% endif %}
+ {% endfor %}
 </div>
