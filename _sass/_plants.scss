@@ -23,6 +23,7 @@
   }
 
   @media screen and (max-width: 426px) {
+    flex-direction: column;
     margin: 0;
 
     & > * {
@@ -37,6 +38,7 @@
   max-width: 300px;
   max-height: 100%;
   border: 5px solid $plants-color;
+  align-self: center;
 
   @media screen and (max-width: 426px) {
     margin-top: 2rem;
