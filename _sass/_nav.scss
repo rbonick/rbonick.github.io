@@ -51,5 +51,9 @@ nav {
     &.blog {
       background-color: $blog-color;
     }
+
+    &.friends {
+      background-color: $friends-color;
+    }
   }
 }

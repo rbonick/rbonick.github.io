@@ -1,0 +1,39 @@
+@import 'colors';
+
+.friends {
+  header {
+    background-color: $friends-color;
+  }
+
+  p {
+    display: inline-block;
+  }
+}
+
+.friends-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  * + * {
+    margin-top: 2rem;
+  }
+}
+
+.friends-list {
+  background-color: $white;
+  display: inline-block;
+  align-self: center;
+  padding: 20px 20px 20px 30px;
+
+  list-style: none;
+
+  li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: $friends-color; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 20px; /* Also needed for space (tweak if needed) */
+    margin-left: -10px; /* Also needed for space (tweak if needed) */
+  }
+}
