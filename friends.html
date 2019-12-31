@@ -1,0 +1,24 @@
+---
+layout: base
+title: ryan bonick
+permalink: /friends.html
+categories: friends
+friends:
+- "Kyle Lengling": https://kylelengling.com/
+- "Henry Millison": http://www.henrymillison.com/
+- "Celine Nguyen": https://celinenguyen.com/
+- "Sean Murphy": https://www.sean-murphy.me/
+- "Jithu Maliakal": http://jithumaliakal.com/
+---
+<div class="container friends-container">
+  <p class="lowercase">I've got some cool friends. Check them out too!</p>
+
+  <ul class="friends-list">
+  {% assign alpha_friends = page.friends | sort_natural %}
+  {% for friend in alpha_friends %}
+    {% for keyvalue in friend %}
+  <li><a href="{{ keyvalue[1] }}" class="uppercase bold">{{ keyvalue[0] }}</a></li>
+    {% endfor %}
+  {% endfor %}
+  </ul>
+</div>
