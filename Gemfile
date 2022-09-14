@@ -31,3 +31,6 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 # Added at 2022-09-13 20:09:03 -0600 by rjbma:
 gem "kramdown-parser-gfm", "~> 1.1"
+
+# Added at 2022-09-13 20:11:59 -0600 by rjbma:
+gem "webrick", "~> 1.7"
