@@ -6,6 +6,7 @@ gems: ["jekyll-sitemap"]
 collections:
   bikes:
     order:
+      - starman.md
       - sandra.md
       - bluto.md
       - red.md
