@@ -41,3 +41,11 @@ Especially looking at some of my early races, I remember having massive differen
 4. Higher FTP - Obviously goes without saying, but being able to recover at higher wattages would help all round. Going harder, recovering while losing less speed... obviously something that will always help.
 
 Sorry for a bit of rambling! But figured I'd rather overanalyze & put into writing rather than forget about something in the future.
+
+<ul class="image-gallery">
+{% for image in site.static_files %}
+    {% if image.path contains 'images/blogs/cyclocross/2022' %}
+        <li><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></li>
+    {% endif %}
+{% endfor %}
+</ul>
