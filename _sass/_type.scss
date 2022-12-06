@@ -98,3 +98,17 @@ a {
 .bold {
   font-weight: bold;
 }
+
+li::marker {
+  font-size: 1.4rem;
+  font-family: $font-display;
+  vertical-align: text-top;
+}
+
+.pos-number {
+  color: $green;
+}
+
+.neg-number {
+  color: $red;
+}

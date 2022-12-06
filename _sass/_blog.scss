@@ -8,10 +8,47 @@
 
 .blog-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
   img {
     max-width: 100%;
+  }
+
+  p {
+    display: inline-block;
+  }
+
+  li {
+    p {
+      display: block;
+    }
+  }
+
+  li + li {
+    margin-top: 1rem;
+  }
+
+  .table-wrapper {
+    width: fit-content;
+    background-color: $white;
+
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  table {
+
+    border-style: hidden;
+    border-collapse: collapse;
+
+    th, td {
+      text-align: start;
+      line-height: 1.5rem;
+      padding: 0.5rem;
+
+      border: 1px solid $black;
+    }
   }
 }
 
