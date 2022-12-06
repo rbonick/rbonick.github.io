@@ -53,11 +53,14 @@
 }
 
 .blog-card {
-  display: inline-block;
   background-color: $white;
   padding: 10px;
 
   h4 {
     margin: 0;
+  }
+
+  & + & {
+    margin-top: 1rem;
   }
 }
