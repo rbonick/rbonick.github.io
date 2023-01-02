@@ -11,8 +11,3 @@ collections:
       - bluto.md
       - red.md
       - marnie.md
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_page_data:
-  categories: blog
-  title: ryan bonick &#58;&#58; blog

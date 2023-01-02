@@ -2,7 +2,6 @@
 layout: blog
 title: 2023 Year Goals
 categories: blog
-tags: life
 description: My goals for the new year (2023)
 ---
 I've always hated the idea of New Years' Resolutions. Frankly, I don't see why

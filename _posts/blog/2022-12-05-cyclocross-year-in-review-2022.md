@@ -1,7 +1,6 @@
 ---
 layout: blog
 title: Cyclocross Year in Review (2022)
-tags: cycling cyclocross
 categories: blog
 description: Breaking down my year in cyclocross - the good & the bad
 ---
