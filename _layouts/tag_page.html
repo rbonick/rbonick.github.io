@@ -1,0 +1,29 @@
+---
+layout: base
+title: ryan bonick &#58;&#58; blog
+categories: blog
+---
+<div class="container">
+  <h2><small>tag:</small>{{ page.tag }}</h2>
+  <div class="blog-page">
+    <div class="blog-posts">
+    {% for post in page.posts %}
+     {% if post.path contains 'blog' or post.path contains 'drafts' %}
+     <div class="blog-card">
+       <a href="{{ page.url }}">
+         <h4>{{ post.title }}</h4>
+       </a>
+     </div>
+     {% endif %}
+   {% endfor %}
+   </div>
+   <div class="blog-tags">
+     <h3>tags</h3>
+     {% for tag in site.tags %}
+     <div class="blog-tag">
+       <a href="/tag/{{tag[0]}}">{{ tag[0] }}</a>
+     </div>
+     {% endfor %}
+   </div>
+ </div>
+</div>
