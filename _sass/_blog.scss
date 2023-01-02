@@ -63,32 +63,6 @@
   }
 }
 
-.blog-page {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-
-  @media screen and (max-width: 426px) {
-    flex-direction: column;
-  }
-}
-
-.blog-posts, .blog-tags {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-}
-
-@media screen and (min-width: 800px) {
-  .blog-posts {
-    flex: 2;
-  }
-
-  .blog-tags {
-    flex: 1;
-  }
-}
-
 .blog-card {
   background-color: $white;
   padding: 10px;
