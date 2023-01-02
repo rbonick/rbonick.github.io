@@ -11,7 +11,11 @@ collections:
       - bluto.md
       - red.md
       - marnie.md
+# Enable safe mode (to mimic github pages)
+safe: true
 plugins:
+  - jekyll-tagging
+whitelist:
   - jekyll-tagging
 tag_page_layout: tag_page
 tag_page_dir: tag
