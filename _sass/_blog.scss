@@ -19,10 +19,22 @@
     display: inline-block;
   }
 
-  li {
-    p {
-      display: block;
+  ul, ol {
+    list-style-position: inside;
+
+    li {
+      background-color: $white;
+      padding: 10px;
     }
+
+    p {
+      display: inline;
+      padding: 0;
+    }
+  }
+
+  p + ul, ol {
+    margin-top: 1rem;
   }
 
   li + li {

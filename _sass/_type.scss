@@ -112,8 +112,11 @@ a {
 }
 
 li::marker {
-  font-size: 1.4rem;
   font-family: $font-display;
+
+  ol & {
+    font-size: 1.4rem;
+  }
 }
 
 .pos-number {
