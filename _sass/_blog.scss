@@ -19,16 +19,11 @@
     display: inline-block;
   }
 
-  ol {
-    p {
-      display: block;
-    }
-  }
-
-  ul {
+  ul, ol {
     list-style-position: inside;
 
     li {
+      background-color: $white;
       padding: 10px;
     }
 
@@ -36,6 +31,10 @@
       display: inline;
       padding: 0;
     }
+  }
+
+  p + ul, ol {
+    margin-top: 1rem;
   }
 
   li + li {
