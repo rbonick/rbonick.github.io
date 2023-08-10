@@ -19,9 +19,22 @@
     display: inline-block;
   }
 
-  li {
+  ol {
     p {
       display: block;
+    }
+  }
+
+  ul {
+    list-style-position: inside;
+
+    li {
+      padding: 10px;
+    }
+
+    p {
+      display: inline;
+      padding: 0;
     }
   }
 
