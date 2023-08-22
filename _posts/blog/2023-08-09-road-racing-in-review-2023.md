@@ -97,13 +97,13 @@ From a numbers perspective (yes, numbers aren't everything, optimize for using
 the least amount of energy, etc., but it's still useful especially when there
 are fitter people out there):
 
-* **Average power:** massive spike. Being able to put out 275W instead of 230W
+* **Average power:** Massive spike. Being able to put out 275W instead of 230W
 is a massive boon
 
-* **Normalized power:** very very small spike! This is honestly really
+* **Normalized power:** Very very small spike! This is honestly really
 fascinating... I'm managing to keep the relative variablity index (normalized /
-average) a lot lower meaning my power is a bit more consistent. I think this
-tracks with a lot less time stuck on the very back of the pack, a lot less time
+average) a lot lower, meaning my power is a bit more consistent. I think this
+tracks with a lot less time stuck on the very back of the pack. A lot less time
 stuck in the washing machine where we'd brake into every corner & sprint back
 out.
 
@@ -114,4 +114,39 @@ proud about are the ones where I got hella points (more than last year).
 
 I remember the first race of the season, I normalized 297W, and I was like, no
 fucking way. The power meter has to be broken. I changed the battery and
-calibrated it half a dozen times over the next week until the
+calibrated it half a dozen times over the next week until another crit. And
+*wham* averaged 299W.
+
+Overall, I feel like this year, I was a lot stronger in terms of repeatability, 
+being able to do those hard efforts out of every corner (mostly bc too far back / 
+bad cornering skills, but still) and it paid off by always being in the lead
+pack by end of the race. 
+
+Still have a lot to work on in terms of preserving energy / legs so that I can
+be more competitive at the end of a race. I'm definitely getting better at 
+cornering and that's helpful, but I also need to work on better reading the field:
+finding the right moments to carry speed & move up a bunch. Especially towards the 
+end of the race, I need to be able to find the right wheels to get up to / stay in
+the top 5-10 wheels going into the final few laps when things really take off. 
+
+I also... don't think I've got that impressive of a sprint. When I first started 
+cycling, I had a powerlifter background (not a good one, but college was mostly 
+spent doing big lifts), so I was able to hit 1200W out the gate, with no endurance 
+to allow me to use it. I feel like that's not gone up at all (which is fine!) and 
+the highest I've managed to actually hit in a race is like 8-900W.
+
+I think it's a bit premature to try and peg myself as a specific type of rider 
+(breakaway, sprinter, etc.) but I do think that if I want to be winning field 
+sprints, I would probably need to actually break 1k watts **and** have the right 
+position to use it. Like, Intelligentsia Day 3 (Winfield), I was 8th wheel or so
+out of the final corner & managed to hang onto that place, but I didn't have any 
+better legs to actually pick off anyone either.
+
+Regardless, I feel like the last month or so of racing everything really started 
+to click, and it's a little sad that it was the end of the season.
+
+Next season goals, besides better fitness / FTP obviously, are probably mostly 
+working on prioritizing rest during the race & finding the right opportunities to
+move up easily and maybe put in some break attempts, and then figure out how to 
+handle the last few laps so that I can put myself into better positions come final 
+sprint time.
