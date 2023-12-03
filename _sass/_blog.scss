@@ -26,7 +26,16 @@
       background-color: $white;
       padding: 10px;
     }
+  }
 
+  ol {
+    p {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  ul {
     p {
       display: inline;
       padding: 0;
@@ -71,6 +80,12 @@
         display: block;
         font-size: 0.8rem;
       }
+    }
+  }
+
+  .highlight-last-row {
+    tbody tr:last-child {
+      background-color: rgba($blue, 0.3);
     }
   }
 }

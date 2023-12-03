@@ -12,7 +12,7 @@ So: fun season of cross (as always) but definitely didn't really have the result
 
 **Season 3 (2022)**: Still cat 4. Still... bottom 20%.
 
-<div class="table-wrapper" markdown="1">
+<div class="table-wrapper highlight-last-row" markdown="1">
 
 | Year | Avg Power <br> (Avg) | Normalized Power <br> (Avg) | Season Points <br> (Avg 5 Best Points) |
 |------|-----------------|------------------------|
