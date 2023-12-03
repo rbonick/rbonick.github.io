@@ -177,3 +177,11 @@ remotely close to this year's.
 **Season 2 (2021)**: Catted up to 4 bc USAC mandatory is 10 races and I didn't wanna switch mid season. Probably could have stayed in 5 tbh, idk how much they care if you're not winning. Avged bottom 20%.
 
 [**Season 3 (2022)**]({% post_url /blog/2022-12-05-cyclocross-year-in-review-2022 %}): Still cat 4. Still... bottom 20%.
+
+<ul class="image-gallery">
+{% for image in site.static_files %}
+    {% if image.path contains 'images/blogs/cyclocross/2023' %}
+        <li><img src="{{ site.baseurl }}{{ image.path }}" alt="image" /></li>
+    {% endif %}
+{% endfor %}
+</ul>
