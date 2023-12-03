@@ -65,16 +65,18 @@ h6 {
 }
 
 p {
-    line-height: 1.625rem;
-
     padding: 10px;
 
-    color: $font-color;
     background-color: $white;
+}
 
-    & + & {
-        margin-top: 1rem;
-    }
+p, ul, ol {
+  color: $font-color;
+  line-height: 1.625rem;
+
+  & + & {
+      margin-top: 1rem;
+  }
 }
 
 a {
@@ -119,10 +121,18 @@ li::marker {
   }
 }
 
+li.list-header p:first-child {
+  font-size: 1.4rem;
+}
+
 .pos-number {
   color: $green;
 }
 
 .neg-number {
   color: $red;
+}
+
+.inline-header {
+  color: $blue;
 }
