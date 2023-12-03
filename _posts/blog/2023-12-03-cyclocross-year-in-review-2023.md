@@ -3,6 +3,7 @@ layout: blog
 title: 2023 Cyclocross Year in Review
 categories: blog
 description: Breaking down 2023 in cyclocross - the good & the bad. Mostly good!
+image: /images/blogs/cyclocross/2023/IMG_6504.jpeg
 ---
 Wow, just wow. This has been an absolutely incredible season for me. I won a
 Cat 4/5 Single Speed race, and podiumed a geared Cat 4 race. And I've been able
