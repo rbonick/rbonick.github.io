@@ -82,6 +82,9 @@ tend to burn your matches on slower, steeper features where you get more bang
 for your buck, rather than sprinting down some straight when you're already
 eating a ton of wind resistance.
 
+Lastly, single speed open nets you a lot of placement points! Even getting
+bottom 25% still earned me more points than a top ten placement in cat 4s.
+
 ### Progress (Last Year's Goals)
 
 Last year, I had 4 goals:
