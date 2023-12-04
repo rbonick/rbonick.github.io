@@ -160,7 +160,7 @@ remotely close to this year's.
 | 2019 | 166 W | 218 W | 591.49 |
 | 2021 | 188 W **(+22 W)**{:.pos-number} | 220 W **(+2 W)**{:.pos-number} | 519.88 **(-71.61)**{:.pos-number} |
 | 2022 | 197 W **(+9 W)**{:.pos-number} | 229 W **(+9 W)**{:.pos-number} | 531.14 **(+11.26)**{:.neg-number} |
-| 2023 | 211 W **(+14 W)**{:.pos-number} | 244 W **(+15 W)**{:.pos-number} | 419.85 **(-111.29)**{:.pos-number} |
+| 2023 | 211 W **(+14 W)**{:.pos-number} | 244 W **(+15 W)**{:.pos-number} | 414.92 **(-116.22)**{:.pos-number} |
 
 </div>
 
