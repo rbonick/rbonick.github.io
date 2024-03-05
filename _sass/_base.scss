@@ -45,3 +45,12 @@ main {
 .hidden {
   display: none;
 }
+
+div.center {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 100%;
+}
