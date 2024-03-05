@@ -3,6 +3,7 @@ layout: blog
 title: 2023 Littleton Twilight Crit (Cat 4), as Seen on Norcal Cycling
 categories: blog
 description: My final crit race of 2023 made it onto Norcal Cycling!
+image: /images/blogs/misc/littleton-header.jpg
 ---
 I assume most American crit racers are, at this point, familiar with the Norcal
 Cycling YouTube channel. Jeff breaks down his races (as well as user-submitted
