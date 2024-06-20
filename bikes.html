@@ -4,7 +4,6 @@ title: ryan bonick &#58;&#58; bikes
 permalink: /bikes.html
 categories: bikes
 ---
-{% assign active_bikes = site.data.bikes | where: "retired", nil | where: "stolen", nil %}
 {% assign retired_bikes = site.data.bikes | where_exp: "bike", "bike.retired" %}
 {% assign stolen_bikes = site.data.bikes | where_exp: "bike", "bike.stolen" %}
 
@@ -15,12 +14,15 @@ categories: bikes
   <p class="lowercase">Right now I have 3 bikes! Don't worry, more are on the way...</p>
 
   <div class="bike-cards">
-    {% for bike in active_bikes %}
-      <div class="bike-card">
-        <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
-        <img src="{{ bike.image }}">
-      </div>
-    {% endfor %}
+    {% for bike in site.data.bikes %}
+      {% unless bike.retired %}
+        {% unless bike.stolen %}
+          <div class="bike-card">
+            <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
+            <img src="{{ bike.image }}">
+          </div>
+      {% endunless %}
+    {% endunless %}
   </div>
 
   <h2 class="center">Retired <small>(with love)</small></h2>
