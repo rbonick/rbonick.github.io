@@ -14,12 +14,12 @@
   make: Trek
   model: Madone
   image: /images/bikes/sandra.jpg
-  retired: true
+  retired: yes
 - name: Red
   make: Specialized
   model: Hardrock Sport
   image: /images/bikes/red.jpg
-  retired: true
+  retired: yes
 - name: Bluto
   make: Giant
   model: Escape
