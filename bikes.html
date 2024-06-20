@@ -4,6 +4,10 @@ title: ryan bonick &#58;&#58; bikes
 permalink: /bikes.html
 categories: bikes
 ---
+{% assign active_bikes = site.data.bikes | where_exp: "bike", "!bike.retired && !bike.stolen"}
+{% assign retired_bikes = site.data.bikes | where_exp: "bike", "bike.retired" %}
+{% assign stolen_bikes = site.data.bikes | where_exp: "bike", "bike.stolen" %}
+
 <div class="container bikes-container">
   <p class="lowercase">Bikes are great!</p>
   <p class="lowercase">Cycling is super duper healthy and also really fun.</p>
@@ -11,41 +15,33 @@ categories: bikes
   <p class="lowercase">Right now I have 3 bikes! Don't worry, more are on the way...</p>
 
   <div class="bike-cards">
-    {% for bike in site.bikes %}
-      {% unless bike.retired %}
-        {% unless bike.stolen %}
-          <div class="bike-card">
-            <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
-            <img src="{{ bike.image }}">
-          </div>
-        {% endunless %}
-      {% endunless %}
+    {% for bike in active_bikes %}
+      <div class="bike-card">
+        <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
+        <img src="{{ bike.image }}">
+      </div>
     {% endfor %}
   </div>
 
   <h2 class="center">Retired <small>(with love)</small></h2>
 
   <div class="bike-cards">
-    {% for bike in site.bikes %}
-      {% if bike.retired %}
+    {% for bike in retired_bikes %}
       <div class="bike-card">
         <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
         <img src="{{ bike.image }}">
       </div>
-      {% endif %}
     {% endfor %}
   </div>
 
-  <h2 class="center">Stolen <small>(🤬)</small></h2>
+  <h2 class="center">Stolen x <small>(🤬)</small></h2>
 
   <div class="bike-cards">
-    {% for bike in site.bikes %}
-      {% if bike.stolen %}
+    {% for bike in stolen_bikes %}
       <div class="bike-card">
         <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
         <img src="{{ bike.image }}">
       </div>
-      {% endif %}
     {% endfor %}
   </div>
 </div>

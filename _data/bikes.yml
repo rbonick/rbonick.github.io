@@ -1,0 +1,27 @@
+- name: Starman
+  make: Specialized
+  model: Allez Sprint Disc
+  image: /images/bikes/starman.jpg
+- name: Chet
+  make: Squid
+  model: Squidcross
+  image: /images/bikes/chet.jpg
+- name: Marnie
+  make: Cannondale
+  model: CaadX 105 SE [trainer bike]
+  image: /images/bikes/marnie.jpg
+- name: Sandra
+  make: Trek
+  model: Madone
+  image: /images/bikes/sandra.jpg
+  retired: true
+- name: Red
+  make: Specialized
+  model: Hardrock Sport
+  image: /images/bikes/red.jpg
+  retired: true
+- name: Bluto
+  make: Giant
+  model: Escape
+  image: /images/bikes/bluto.jpg
+  stolen: yes
