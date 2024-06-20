@@ -21,8 +21,9 @@ categories: bikes
             <h3>{{ bike.name }} <small>{{ bike.make }} {{ bike.model }}</small></h3>
             <img src="{{ bike.image }}">
           </div>
+        {% endunless %}
       {% endunless %}
-    {% endunless %}
+    {% endfor %}
   </div>
 
   <h2 class="center">Retired <small>(with love)</small></h2>
