@@ -1,0 +1,23 @@
+@import 'colors';
+
+.music {
+  header {
+    background-color: $music-color;
+  }
+}
+
+.bandcamp-embeds {
+  margin-top: 2rem;
+
+  @media screen and (max-width: 426px) {
+    margin-top: 1rem;
+  }
+
+  iframe+iframe {
+    margin-top: 1.5rem;
+
+    @media screen and (max-width: 426px) {
+      margin-top: 0.5rem;
+    }
+  }
+}
