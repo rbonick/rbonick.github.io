@@ -2,21 +2,24 @@ $red: #F25942;
 $green: #0CA65F;
 $yellow: #F2A405;
 $purple: #9623CC;
-$teal: #18C9AA;
+$bright-teal: #18C9AA;
 $blue: #2567D9;
+$dark-blue: #2E446A;
+$teal: #19879C;
 $white: #FFFFFF;
 $dark-red: #471218;
 $black: #333333;
 
 $font-color: $black;
-$link-color: $teal;
+$link-color: $bright-teal;
 
 $home-color: $red;
 $projects-color: $yellow;
 $bikes-color: $blue;
+$music-color: $teal;
 $plants-color: $green;
 $blog-color: $purple;
-$friends-color: $teal;
+$friends-color: $bright-teal;
 
-$grid-color: $teal;
+$grid-color: $bright-teal;
 $grid-transparent: #{$grid-color}40;
