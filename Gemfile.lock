@@ -14,10 +14,7 @@ GEM
     ffi (1.16.3)
     ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
-    google-protobuf (4.27.0)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.0-x64-mingw-ucrt)
+    google-protobuf (4.27.5)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -88,7 +85,6 @@ GEM
     tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
-    wdm (0.2.0)
     webrick (1.8.1)
 
 PLATFORMS
@@ -103,7 +99,6 @@ DEPENDENCIES
   kramdown-parser-gfm (~> 1.1)
   minima
   tzinfo-data
-  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
