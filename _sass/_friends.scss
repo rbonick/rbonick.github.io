@@ -26,6 +26,12 @@
   align-self: center;
   padding: 20px 20px 20px 30px;
 
+  @media (prefers-color-scheme: dark) {
+    & {
+      background-color: $black;
+    }
+  }
+
   list-style: none;
 
   li::before {

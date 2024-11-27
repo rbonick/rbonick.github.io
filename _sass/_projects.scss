@@ -13,6 +13,12 @@
     color: $white;
     background-color: $projects-color;
 
+    @media (prefers-color-scheme: dark) {
+      & {
+        color: $black;
+      }
+    }
+
     @media screen and (max-width: 426px) {
       display: block;
       text-align: center;
@@ -54,6 +60,12 @@
 
   a p {
     color: $font-color;
+
+    @media (prefers-color-scheme: dark) {
+      & {
+        color: $font-color-dark;
+      }
+    }
   }
 }
 

@@ -25,6 +25,12 @@
     li {
       background-color: $white;
       padding: 10px;
+
+      @media (prefers-color-scheme: dark) {
+        & {
+          background-color: $black;
+        }
+      }
     }
   }
 
@@ -56,6 +62,12 @@
 
     padding: 1rem;
     margin: 1rem 0;
+
+    @media (prefers-color-scheme: dark) {
+      & {
+        background-color: $black;
+      }
+    }
   }
 
   table {
@@ -69,6 +81,12 @@
       padding: 0.5rem;
 
       border: 1px solid $black;
+
+      @media (prefers-color-scheme: dark) {
+        & {
+          border: 1px solid $white;
+        }
+      }
     }
 
     @media screen and (max-width: 426px) {
@@ -93,6 +111,12 @@
 .blog-card {
   background-color: $white;
   padding: 10px;
+
+  @media (prefers-color-scheme: dark) {
+    & {
+      background-color: $black;
+    }
+  }
 
   h4 {
     margin: 0;
