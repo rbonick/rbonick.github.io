@@ -32,6 +32,12 @@ nav {
     text-align: center;
     color: $white;
 
+    @media (prefers-color-scheme: dark) {
+      & {
+        color: $black;
+      }
+    }
+
     &.home {
       background-color: $home-color;
     }
