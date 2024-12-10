@@ -17,6 +17,9 @@ GEM
     google-protobuf (4.27.5)
       bigdecimal
       rake (>= 13)
+    google-protobuf (4.27.5-x64-mingw-ucrt)
+      bigdecimal
+      rake (>= 13)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
@@ -83,6 +86,7 @@ GEM
     tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
+    wdm (0.2.0)
     webrick (1.8.2)
 
 PLATFORMS
@@ -97,6 +101,7 @@ DEPENDENCIES
   kramdown-parser-gfm (~> 1.1)
   minima
   tzinfo-data
+  wdm (>= 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH

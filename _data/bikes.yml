@@ -6,6 +6,14 @@
   make: Squid
   model: Squidcross
   image: /images/bikes/chet.jpg
+- name: Huckleberry (Huck)
+  make: State
+  model: 4130 Single Speed
+  image: /images/bikes/huck.jpg
+- name: NO NAME YET??
+  make: Felt
+  model: TK2
+  image: /images/bikes/felt.jpg
 - name: Marnie
   make: Cannondale
   model: CaadX 105 SE [trainer bike]
