@@ -18,8 +18,13 @@ body {
   display: flex;
   flex-direction: column;
 
-  background-size: $grid-size $grid-size;
-  background-image: linear-gradient(to right, $grid-transparent $grid-thickness, transparent $grid-thickness), linear-gradient(to bottom, $grid-transparent $grid-thickness, transparent $grid-thickness);
+  // background-size: $grid-size $grid-size;
+  // background-image: linear-gradient(to right, $grid-transparent $grid-thickness, transparent $grid-thickness), linear-gradient(to bottom, $grid-transparent $grid-thickness, transparent $grid-thickness);
+  background-image: url("/images/flowering-plant.jpg");
+  Background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
 
   @media (prefers-color-scheme: dark) {
     & {

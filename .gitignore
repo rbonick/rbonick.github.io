@@ -53,3 +53,4 @@ crashlytics.properties
 crashlytics-build.properties
 
 *.sublime-workspace
+.DS_Store
