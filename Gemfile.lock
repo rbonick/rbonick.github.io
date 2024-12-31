@@ -3,21 +3,19 @@ GEM
   specs:
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.2.0)
     bigdecimal (3.1.8)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
+    csv (3.3.2)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     ffi (1.16.3)
-    ffi (1.16.3-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.5)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.27.5-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
@@ -57,11 +55,13 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.6.4)
     mercenary (0.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    ostruct (0.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.5)
@@ -86,7 +86,6 @@ GEM
     tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
-    wdm (0.2.0)
     webrick (1.8.2)
 
 PLATFORMS
@@ -95,13 +94,16 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  base64 (~> 0.2.0)
+  csv (~> 3.3)
   jekyll
   jekyll-feed (~> 0.6)
   jekyll-sitemap
   kramdown-parser-gfm (~> 1.1)
+  logger (~> 1.6)
   minima
+  ostruct (~> 0.6.1)
   tzinfo-data
-  wdm (>= 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
