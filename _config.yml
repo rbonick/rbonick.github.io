@@ -2,7 +2,7 @@ name: Ryan Bonick - Blog
 highlighter: rouge
 exclude: [old, '*.sublime-project', '*.sublime-workspace']
 permalink: none
-gems: ["jekyll-sitemap"]
+gems: ["jekyll-sitemap", 'jekyll-feed']
 collections:
   bikes:
     order:
@@ -11,3 +11,10 @@ collections:
       - bluto.md
       - red.md
       - marnie.md
+# For RSS
+description: Random musings on bikes, music, and life
+# For RSS
+author: Ryan Bonick
+feed:
+  icon: /images/favicon.png
+  logo: /images/favicon.png

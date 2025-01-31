@@ -1,7 +1,7 @@
 @import 'colors';
 
 .blog {
-  header {
+  header, footer {
     background-color: $blog-color;
   }
 }
