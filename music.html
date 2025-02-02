@@ -6,9 +6,10 @@ categories: music
 ---
 
 <div class="container music-container">
-  <p>i make music under the name <a href="https://cirtamoa.bandcamp.com/">cirtamoa</a></p>
+  <p class="lowercase">I make music under the name <a href="https://cirtamoa.bandcamp.com/">Cirtamoa</a></p>
+  <p class="lowercase">Here is a selection of my latest songs.</p>
   <div class="bandcamp-embeds">
-    {% for item in site.data.music %}
+    {% for item in site.data.music limit: 5 %}
       {% if item.album %}
         <iframe style="border: 0; width: 700px; height: 208px;"
           src="https://bandcamp.com/EmbeddedPlayer/album={{item.num}}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/"
