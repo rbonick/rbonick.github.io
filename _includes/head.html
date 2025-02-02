@@ -9,4 +9,15 @@
     {% if page.image %}
       <meta property="og:image" content="{{ page.image }}">
     {% endif %}
+    <script>
+      const backgrounds = [
+    {% for image in site.static_files %}
+      {% if image.path contains 'images/bg' %}
+        "{{ image.path }}",
+      {% endif %}
+    {% endfor %}
+    ]
+    console.log(`backgrounds: ${backgrounds}`)
+     </script>
+    <script type="text/javascript" src="/scripts/bg.js"></script>
 </head>
