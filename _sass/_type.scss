@@ -171,3 +171,13 @@ li.list-header p:first-child {
 .inline-header {
   color: $blue;
 }
+
+table {
+  color: $black;
+
+  @media (prefers-color-scheme: dark) {
+    & {
+      color: $white;
+    }
+  }
+}

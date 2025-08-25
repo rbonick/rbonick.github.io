@@ -106,6 +106,12 @@
       background-color: rgba($blue, 0.3);
     }
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $blog-color;
+    -webkit-text-stroke-color: $white;
+    -webkit-text-stroke-width: 0.02rem;
+  }
 }
 
 .blog-card {
