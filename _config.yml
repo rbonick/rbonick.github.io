@@ -2,7 +2,7 @@ name: Ryan Bonick - Blog
 highlighter: rouge
 exclude: [old, '*.sublime-project', '*.sublime-workspace']
 permalink: none
-gems: ["jekyll-sitemap", 'jekyll-feed']
+plugins: ["jekyll-sitemap", 'jekyll-feed']
 collections:
   bikes:
     order:
