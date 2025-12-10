@@ -15,6 +15,12 @@
     max-width: 100%;
   }
 
+  .two-grid-row .grid-image {
+    align-self: center;
+    justify-self: center;
+    min-width: 100%;
+  }
+
   p {
     display: inline-block;
     padding-inline-start: 1rem;
