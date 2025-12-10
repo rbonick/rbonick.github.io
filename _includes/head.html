@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/style.css">
     {% if page.image %}
       <meta property="og:image" content="{{ page.image }}">
+    {% else %}
+      <meta property="og:image" content="/images/screenshot.png">
     {% endif %}
     <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="/feed.xml">
     <script>
