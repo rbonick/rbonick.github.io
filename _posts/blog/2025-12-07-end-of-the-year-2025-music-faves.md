@@ -90,7 +90,7 @@ all equally beloved.
 ## "Beers with my name on them" - Asher White
 
 <div class="two-grid-row one-quarter-three-quarters">
-    <img class="grid-image-small" src="https://upload.wikimedia.org/wikipedia/en/a/a1/Rosal%C3%ADa_%E2%80%93_Lux_%28album_cover%29.png"/>
+    <img class="grid-image-small" src="https://f4.bcbits.com/img/a1412430657_10.jpg"/>
     <p>Starts with a soft song about getting ready to go out and party, then the second half of the song **is** the party. Absolute banger (drink!!) on the level of “Dance Yrself Clean”. When I played this in the car with some friends, both of them were like “What the actual fuck is this song??”.</p>
 </div>
 
