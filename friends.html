@@ -10,6 +10,8 @@ friends:
 - "Sean Murphy": https://www.sean-murphy.me/
 - "Jithu Maliakal": http://jithumaliakal.com/
 - "Hannah Zabarsky": https://hannahzabarsky.com/
+articles:
+  - Everyone is Beautiful and No One Is Horny: 'https://bloodknife.com/everyone-beautiful-no-one-horny/'
 ---
 <div class="container friends-container">
   <p class="lowercase">I've got some cool friends. Check them out too!</p>
@@ -22,4 +24,12 @@ friends:
     {% endfor %}
   {% endfor %}
   </ul>
+
+  <p class="lowercase">Also, here are some articles I like / find interesting</p>
+  {% assign articles = page.articles | sort_natural %}
+  {% for article in articles %}
+      {% for keyvalue in article %}
+          <p class="lowercase center"><a href="{{ keyvalue[1] }}" class="uppercase bold">{{ keyvalue[0] }}</a></p>
+      {% endfor %}
+  {% endfor %}
 </div>

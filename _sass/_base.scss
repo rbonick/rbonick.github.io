@@ -53,6 +53,24 @@ main {
   flex-grow: 1;
 }
 
+.two-grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+  gap: 1rem; /* Optional: Adds a gap between columns */
+
+  @media screen and (max-width: 426px) {
+    grid-template-columns: 1fr;
+  }
+
+  &.one-quarter-three-quarters {
+    grid-template-columns: 1fr 3fr; /* 1/4 + 3/4 */
+
+    @media screen and (max-width: 426px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
 .hidden {
   display: none;
 }
