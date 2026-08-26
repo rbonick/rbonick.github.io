@@ -8,11 +8,15 @@ categories: bikes
 {% assign stolen_bikes = site.data.bikes | where_exp: "bike", "bike.stolen" %}
 
 <div class="container bikes-container">
-  <p class="lowercase">Bikes are great!</p>
-  <p class="lowercase">Cycling is super duper healthy and also really fun.</p>
-  <p class="lowercase">And they're better for the environment than a car!</p>
-  <p class="lowercase">Right now I have 3 bikes! Don't worry, more are on the way...</p>
-
+    <p class="lowercase">Bikes are great!</p>
+    <p class="lowercase">Cycling is super duper healthy and also really fun.</p>
+    <p class="lowercase">And they're better for the environment than a car!</p>
+    <p class="lowercase">Right now I have 6 bikes! </p>
+    <p class="lowercase">
+      One of my favorite parts about bikes is racing, so I've put together a little 
+      reference sheet for myself for <a href="/bikes/cyclocross">cyclocross</a>.
+    </p>
+  
   <div class="bike-cards">
     {% for bike in site.data.bikes %}
       {% unless bike.retired %}
